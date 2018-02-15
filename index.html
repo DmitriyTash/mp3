@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <title>my mp3</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/main.css" rel="stylesheet"/>
+        
+    </head>
+    
+    <body>
+        <div id="bg">
+            <div id="blacklayer"></div>
+            <img src="img/road.jpg">
+        </div>
+        
+        <div id="main">
+                <div id="image">
+                    <img src="img/road.jpg">
+                </div>
+                <div id="player">
+                    <div id="songTitle">Demo</div>
+                    <div id="buttons">
+                        <button id="pre" onclick="pre()"><img src="img/previous.png" alt="icon" height="100%" width="100%"/></button>
+                        <button id="play" onclick="playOrPauseSong()"><img src="img/play.png" alt="icon" height="120%" width="120%"/></button>
+                        <button id="next" onclick="next()"><img src="img/next.png" alt="icon" height="100%" width="100%"/></button>
+                    </div>
+                    <div id="zero">
+                        <div id="currentTime" class="current-time">00:00</div>
+                        <div id="duration" class="duration">00:00</div>
+                    </div>
+                    <div id="seek-bar">
+                        <div id="fill"></div>
+                        <div id="handle"></div>
+                    </div>
+                   
+
+                </div>
+        </div>
+        
+        
+        <script type="text/javascript" src="js/main.js"></script>
+        <script src="jquery-3.3.1.min.js"></script>
+    </body>
+
+</html>
